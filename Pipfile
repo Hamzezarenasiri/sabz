@@ -1,0 +1,26 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-phonenumber-field = "*"
+phonenumbers = "*"
+django-rest-auth = "*"
+pyotp = "*"
+pyjwt = "*"
+pillow = "*"
+drf-yasg = "*"
+django-cors-headers = "*"
+djangorestframework-simplejwt = "*"
+jdatetime = "*"
+django-jalali-date = "*"
+bleach = "*"
+factory-boy = "*"
+selenium = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
