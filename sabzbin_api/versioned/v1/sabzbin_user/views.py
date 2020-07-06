@@ -113,6 +113,7 @@ class VerificationViewSet(GenericViewSet):
 
 
 class ProfileAPIViewSet(RetrieveModelMixin,
+                        ListModelMixin,
                         GenericViewSet):
     """
         Retrieve or update User Profile.
